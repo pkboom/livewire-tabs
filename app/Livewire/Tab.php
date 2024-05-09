@@ -10,9 +10,6 @@ class Tab extends Component
 
     public function render()
     {
-        pick('tab render');
-        pick($this->currentTab);
-
         switch ($this->currentTab) {
             case 'tab2':
                 return view('livewire.tab2');

@@ -12,8 +12,6 @@ class Tabs extends Component
 
     public function render()
     {
-        pick('tabs render');
-
         return view('livewire.tabs');
     }
 
